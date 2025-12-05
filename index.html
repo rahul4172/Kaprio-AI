@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega-Bot AI</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Hello! I'm your Kaprio AI assistant.</h1>
+        <p class="subtitle">Ready to create AI content?</p>
+        <ul class="suggestion-list">
+            <li class="suggestion">
+                <h4 class="text">Create an AI influencer for my tech startup</h4>
+                <span class="icon material-symbols-rounded">draw</span>
+            </li>
+            <li class="suggestion">
+                <h4 class="text">Generate a week's worth of social media content</h4>
+                <span class="icon material-symbols-rounded">lightbulb</span>
+            </li>
+            <li class="suggestion">
+                <h4 class="text">Design a virtual model for my e-commerce brand</h4>
+                <span class="icon material-symbols-rounded">explore</span>
+            </li>
+            <li class="suggestion">
+                <h4 class="text">Clone my founder's voice for automated videos</h4>
+                <span class="icon material-symbols-rounded">code</span>
+            </li>
+        </ul>
+    </header>
+    <div class="chat-list"></div>
+    <div class="typing-area">
+        <form class="typing-form">
+            <div class="input-wrapper">
+                <input type="text" placeholder="Enter a prompt here" class="typing-input" required />
+                <button id="send-message-button" class="icon material-symbols-rounded">send</button>
+            </div>
+            <div class="action-buttons">
+                <span id="theme-toggle-button" class="icon material-symbols-rounded">light_mode</span>
+                <span id="delete-chat-button" class="icon material-symbols-rounded">delete</span>
+            </div>
+        </form>
+        <p class="disclaimer-text">
+            Kaprio AI can generate content ideas, create scripts, and plan your social media strategy.
+        </p>
+    </div>
+    <script src="./script.js"></script>
+    <img src="./user.png" style="display:none;" alt="User avatar">
+    <img src="./kaprio.jpeg" style="display:none;" alt="Gemini avatar">
+</body>
+</html>
